@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+}
+
+
+p {
+  color: rgb(72, 23, 163);
+  font-size: 48px;
+  font-weight: normal;
+}
+
+#beginTime {
+  color: rgb(85, 152, 224);
+  font-size: 48px;
+  font-weight: normal;
+}
+
+#finishTime {
+  color: rgb(237, 121, 190);
+  font-size: 48px;
+  font-weight: normal;
+}
+
+#workingTime {
+  color: rgb(72, 23, 163);
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.historyTitle {
+  color: rgb(72, 23, 163);
+  font-size: 48px;
+  font-weight: normal;
+
+}
+
+.Today {
+  color: rgb(72, 23, 163);
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.history {
+  font-size: 26px;
+  color: rgb(72, 23, 163);
+  line-height: 48px;
+  height: 100;
+  background-color: rgb(218, 218, 218);
+  display: inline-block;
+}
+
+
+#begin {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(85, 152, 224);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+      inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#finish {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(237, 121, 190);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+      inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+/* これがカーソル当てた時に色が変わります */
+#finish:hover {
+  background: rgb(7, 3, 214);
+}
